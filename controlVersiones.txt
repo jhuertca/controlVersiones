@@ -1,0 +1,33 @@
+Nombre del repositorio
+		controlVersiones
+		
+		
+IPv4 del repositorio		
+		https://github.com/miRepositorioGit/controlVersiones.git
+
+
+Creacion de contenidos
+		echo "# controlVersiones" >> README.md
+		git init
+		git add README.md
+		git commit -m "first commit"
+		git branch -M main
+		git remote add origin https://github.com/miRepositorioGit/controlVersiones.git
+		git push -u origin main		
+
+Actualizacion de contenidos
+		
+	
+		git add .
+		git add -A
+		git add nameFile.ext
+		
+		git commit -m "first commit"
+	
+		git push -u origin main
+		
+Comandos para gestionar versiones
+		
+		git log --online
+		git checkout "id-hash"
+		git checkout master
